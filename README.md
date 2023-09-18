@@ -11,3 +11,6 @@ The algorithm itself, after calculating the entire board, returns whether it is 
 ## Development
 As I mentioned before, there is a way to make the algorithm a little faster. But due to the non-linearity of the problem it can be only achieved by trial and error method. Random position of the pawns and knight is not helping also, because it creates situations where there is no perfect solution, thus the additional functionality to stop the algorithm near the finish.
 Finally, we could use a better CPU, or try to work the program on GPU, trying to check all 5 paths from the certain box on the board.
+
+## Example
+![BOARD.png](BOARD.png)
