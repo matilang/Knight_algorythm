@@ -1,18 +1,3 @@
-'''
-Algorytm w programie działa, lecz jest bardzo powolny, niestety możliwości ruchów skoczka jest niesamowicie dużo.
-Problem skoczka jest zaliczany jako NP - trudny, czyli jest on problemem nieliniowym w którym możemy tylko starać się
-przyspieszyć znajdowanie optymalnej ścieżki (uzyłem algorytmu Warnsdorffa z backtrackingiem).
-Sam algorytm po przeliczeniu całej planszy zwraca odpowiedź czy jest możliwe
-wykonanie wszystkich ruchów, czy też nie. Przez wzgląd na bardzo długi okres obliczania wszystkich możliwości
-wprowadziłem dodatkową funkcjonalność(, która zatrzymuje program już po znalezieniu trasy której brakuje 4,3,2, czy
-też jednego miejsca, aby pokazać, że mogę zwrócić aktualną ścieżkę pokonaną przez skoczka, ilość pokrytych klatek
-i jeżeli nie znalazło rozwiązania w ciągu pierwszych 10 sekund najprawdopodobniej, dana konfiguracja planszy nie
-pokryje wszystkich pól, lecz dopiero gdyby usunąć to dodatkową funkcjonalnośći i poczekać do końca obliczeń
-jesteśmy w stanie w pełni uczciwie stwierdzić, czy możliwe jest wykonanie problemu skoczka.
-'''
-
-
-
 import pygame
 import random
 
